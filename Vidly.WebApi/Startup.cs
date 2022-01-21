@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Vidly.DataAcces.Infrastructure;
+using Vidly.Services.Infrastructure;
 
 namespace Vidly.WebApi
 {
@@ -23,6 +25,8 @@ namespace Vidly.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDalBindings();
+            services.AddSlBindings();
             services.AddControllersWithViews();
         }
 

@@ -1,11 +1,11 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Vidly.Services\Vidly.Services.csproj" />
+    <ProjectReference Include="..\Vidly.DataAcces\Vidly.DataAcces.csproj" />
   </ItemGroup>
 
 </Project>

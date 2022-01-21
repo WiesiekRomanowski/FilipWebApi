@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vidly.WebApi", "Vidly.WebApi\Vidly.WebApi.csproj", "{9324CA80-F449-467E-BEB4-C4787A1828F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vidly.Services", "Vidly.Services\Vidly.Services.csproj", "{70101C5F-0284-4BA0-9970-721A2B620B73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vidly.DataAcces", "Vidly.DataAcces\Vidly.DataAcces.csproj", "{D5A850E9-2966-4EC0-B75D-CBD743A40381}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9324CA80-F449-467E-BEB4-C4787A1828F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9324CA80-F449-467E-BEB4-C4787A1828F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9324CA80-F449-467E-BEB4-C4787A1828F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70101C5F-0284-4BA0-9970-721A2B620B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70101C5F-0284-4BA0-9970-721A2B620B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70101C5F-0284-4BA0-9970-721A2B620B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70101C5F-0284-4BA0-9970-721A2B620B73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A850E9-2966-4EC0-B75D-CBD743A40381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A850E9-2966-4EC0-B75D-CBD743A40381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A850E9-2966-4EC0-B75D-CBD743A40381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A850E9-2966-4EC0-B75D-CBD743A40381}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
