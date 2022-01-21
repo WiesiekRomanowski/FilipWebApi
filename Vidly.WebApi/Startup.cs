@@ -1,15 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Vidly.DataAcces.Infrastructure;
 using Vidly.Services.Infrastructure;
+using Vidly.WebApi.Infrastructure;
 
 namespace Vidly.WebApi
 {
@@ -27,6 +23,7 @@ namespace Vidly.WebApi
         {
             services.AddDalBindings();
             services.AddSlBindings();
+            services.BindAutoMapper();
             services.AddControllersWithViews();
         }
 
@@ -54,7 +51,7 @@ namespace Vidly.WebApi
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Customer}/{action=Index}/{id?}");
             });
         }
     }
